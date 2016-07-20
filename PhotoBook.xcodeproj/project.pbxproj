@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5014460E1D3F147D0068A2D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5014460D1D3F147D0068A2D1 /* main.m */; };
+		501446111D3F147D0068A2D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 501446101D3F147D0068A2D1 /* AppDelegate.m */; };
+		501446141D3F147D0068A2D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501446131D3F147D0068A2D1 /* ViewController.m */; };
+		501446171D3F147D0068A2D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501446151D3F147D0068A2D1 /* Main.storyboard */; };
+		501446191D3F147D0068A2D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501446181D3F147D0068A2D1 /* Assets.xcassets */; };
+		5014461C1D3F147D0068A2D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5014461A1D3F147D0068A2D1 /* LaunchScreen.storyboard */; };
+		501446271D3F147D0068A2D1 /* PhotoBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 501446261D3F147D0068A2D1 /* PhotoBookTests.m */; };
+		501446321D3F147D0068A2D1 /* PhotoBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 501446311D3F147D0068A2D1 /* PhotoBookUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		501446231D3F147D0068A2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501446011D3F147C0068A2D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 501446081D3F147C0068A2D1;
+			remoteInfo = PhotoBook;
+		};
+		5014462E1D3F147D0068A2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501446011D3F147C0068A2D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 501446081D3F147C0068A2D1;
+			remoteInfo = PhotoBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		501446091D3F147C0068A2D1 /* PhotoBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5014460D1D3F147D0068A2D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5014460F1D3F147D0068A2D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		501446101D3F147D0068A2D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		501446121D3F147D0068A2D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		501446131D3F147D0068A2D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		501446161D3F147D0068A2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		501446181D3F147D0068A2D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5014461B1D3F147D0068A2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5014461D1D3F147D0068A2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		501446221D3F147D0068A2D1 /* PhotoBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		501446261D3F147D0068A2D1 /* PhotoBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBookTests.m; sourceTree = "<group>"; };
+		501446281D3F147D0068A2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5014462D1D3F147D0068A2D1 /* PhotoBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		501446311D3F147D0068A2D1 /* PhotoBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBookUITests.m; sourceTree = "<group>"; };
+		501446331D3F147D0068A2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		501446061D3F147C0068A2D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5014461F1D3F147D0068A2D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5014462A1D3F147D0068A2D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		501446001D3F147C0068A2D1 = {
+			isa = PBXGroup;
+			children = (
+				5014460B1D3F147D0068A2D1 /* PhotoBook */,
+				501446251D3F147D0068A2D1 /* PhotoBookTests */,
+				501446301D3F147D0068A2D1 /* PhotoBookUITests */,
+				5014460A1D3F147C0068A2D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5014460A1D3F147C0068A2D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				501446091D3F147C0068A2D1 /* PhotoBook.app */,
+				501446221D3F147D0068A2D1 /* PhotoBookTests.xctest */,
+				5014462D1D3F147D0068A2D1 /* PhotoBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5014460B1D3F147D0068A2D1 /* PhotoBook */ = {
+			isa = PBXGroup;
+			children = (
+				5014460F1D3F147D0068A2D1 /* AppDelegate.h */,
+				501446101D3F147D0068A2D1 /* AppDelegate.m */,
+				501446121D3F147D0068A2D1 /* ViewController.h */,
+				501446131D3F147D0068A2D1 /* ViewController.m */,
+				501446151D3F147D0068A2D1 /* Main.storyboard */,
+				501446181D3F147D0068A2D1 /* Assets.xcassets */,
+				5014461A1D3F147D0068A2D1 /* LaunchScreen.storyboard */,
+				5014461D1D3F147D0068A2D1 /* Info.plist */,
+				5014460C1D3F147D0068A2D1 /* Supporting Files */,
+			);
+			path = PhotoBook;
+			sourceTree = "<group>";
+		};
+		5014460C1D3F147D0068A2D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5014460D1D3F147D0068A2D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		501446251D3F147D0068A2D1 /* PhotoBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				501446261D3F147D0068A2D1 /* PhotoBookTests.m */,
+				501446281D3F147D0068A2D1 /* Info.plist */,
+			);
+			path = PhotoBookTests;
+			sourceTree = "<group>";
+		};
+		501446301D3F147D0068A2D1 /* PhotoBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				501446311D3F147D0068A2D1 /* PhotoBookUITests.m */,
+				501446331D3F147D0068A2D1 /* Info.plist */,
+			);
+			path = PhotoBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		501446081D3F147C0068A2D1 /* PhotoBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501446361D3F147D0068A2D1 /* Build configuration list for PBXNativeTarget "PhotoBook" */;
+			buildPhases = (
+				501446051D3F147C0068A2D1 /* Sources */,
+				501446061D3F147C0068A2D1 /* Frameworks */,
+				501446071D3F147C0068A2D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBook;
+			productName = PhotoBook;
+			productReference = 501446091D3F147C0068A2D1 /* PhotoBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		501446211D3F147D0068A2D1 /* PhotoBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501446391D3F147D0068A2D1 /* Build configuration list for PBXNativeTarget "PhotoBookTests" */;
+			buildPhases = (
+				5014461E1D3F147D0068A2D1 /* Sources */,
+				5014461F1D3F147D0068A2D1 /* Frameworks */,
+				501446201D3F147D0068A2D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				501446241D3F147D0068A2D1 /* PBXTargetDependency */,
+			);
+			name = PhotoBookTests;
+			productName = PhotoBookTests;
+			productReference = 501446221D3F147D0068A2D1 /* PhotoBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5014462C1D3F147D0068A2D1 /* PhotoBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5014463C1D3F147D0068A2D1 /* Build configuration list for PBXNativeTarget "PhotoBookUITests" */;
+			buildPhases = (
+				501446291D3F147D0068A2D1 /* Sources */,
+				5014462A1D3F147D0068A2D1 /* Frameworks */,
+				5014462B1D3F147D0068A2D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5014462F1D3F147D0068A2D1 /* PBXTargetDependency */,
+			);
+			name = PhotoBookUITests;
+			productName = PhotoBookUITests;
+			productReference = 5014462D1D3F147D0068A2D1 /* PhotoBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		501446011D3F147C0068A2D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tamanna;
+				TargetAttributes = {
+					501446081D3F147C0068A2D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W86B53C8Z7;
+					};
+					501446211D3F147D0068A2D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W86B53C8Z7;
+						TestTargetID = 501446081D3F147C0068A2D1;
+					};
+					5014462C1D3F147D0068A2D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W86B53C8Z7;
+						TestTargetID = 501446081D3F147C0068A2D1;
+					};
+				};
+			};
+			buildConfigurationList = 501446041D3F147C0068A2D1 /* Build configuration list for PBXProject "PhotoBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 501446001D3F147C0068A2D1;
+			productRefGroup = 5014460A1D3F147C0068A2D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				501446081D3F147C0068A2D1 /* PhotoBook */,
+				501446211D3F147D0068A2D1 /* PhotoBookTests */,
+				5014462C1D3F147D0068A2D1 /* PhotoBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		501446071D3F147C0068A2D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5014461C1D3F147D0068A2D1 /* LaunchScreen.storyboard in Resources */,
+				501446191D3F147D0068A2D1 /* Assets.xcassets in Resources */,
+				501446171D3F147D0068A2D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501446201D3F147D0068A2D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5014462B1D3F147D0068A2D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		501446051D3F147C0068A2D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501446141D3F147D0068A2D1 /* ViewController.m in Sources */,
+				501446111D3F147D0068A2D1 /* AppDelegate.m in Sources */,
+				5014460E1D3F147D0068A2D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5014461E1D3F147D0068A2D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501446271D3F147D0068A2D1 /* PhotoBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501446291D3F147D0068A2D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501446321D3F147D0068A2D1 /* PhotoBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		501446241D3F147D0068A2D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 501446081D3F147C0068A2D1 /* PhotoBook */;
+			targetProxy = 501446231D3F147D0068A2D1 /* PBXContainerItemProxy */;
+		};
+		5014462F1D3F147D0068A2D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 501446081D3F147C0068A2D1 /* PhotoBook */;
+			targetProxy = 5014462E1D3F147D0068A2D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		501446151D3F147D0068A2D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				501446161D3F147D0068A2D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5014461A1D3F147D0068A2D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5014461B1D3F147D0068A2D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		501446341D3F147D0068A2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		501446351D3F147D0068A2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		501446371D3F147D0068A2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamanna.PhotoBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		501446381D3F147D0068A2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamanna.PhotoBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5014463A1D3F147D0068A2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamanna.PhotoBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoBook.app/PhotoBook";
+			};
+			name = Debug;
+		};
+		5014463B1D3F147D0068A2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamanna.PhotoBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoBook.app/PhotoBook";
+			};
+			name = Release;
+		};
+		5014463D1D3F147D0068A2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamanna.PhotoBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoBook;
+			};
+			name = Debug;
+		};
+		5014463E1D3F147D0068A2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamanna.PhotoBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		501446041D3F147C0068A2D1 /* Build configuration list for PBXProject "PhotoBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501446341D3F147D0068A2D1 /* Debug */,
+				501446351D3F147D0068A2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		501446361D3F147D0068A2D1 /* Build configuration list for PBXNativeTarget "PhotoBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501446371D3F147D0068A2D1 /* Debug */,
+				501446381D3F147D0068A2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		501446391D3F147D0068A2D1 /* Build configuration list for PBXNativeTarget "PhotoBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5014463A1D3F147D0068A2D1 /* Debug */,
+				5014463B1D3F147D0068A2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5014463C1D3F147D0068A2D1 /* Build configuration list for PBXNativeTarget "PhotoBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5014463D1D3F147D0068A2D1 /* Debug */,
+				5014463E1D3F147D0068A2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 501446011D3F147C0068A2D1 /* Project object */;
+}
