@@ -15,6 +15,8 @@
 		5014461C1D3F147D0068A2D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5014461A1D3F147D0068A2D1 /* LaunchScreen.storyboard */; };
 		501446271D3F147D0068A2D1 /* PhotoBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 501446261D3F147D0068A2D1 /* PhotoBookTests.m */; };
 		501446321D3F147D0068A2D1 /* PhotoBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 501446311D3F147D0068A2D1 /* PhotoBookUITests.m */; };
+		501446401D3F1D3D0068A2D1 /* search-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5014463F1D3F1D3D0068A2D1 /* search-button.png */; };
+		501446431D3F3A6E0068A2D1 /* sort_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 501446421D3F3A6E0068A2D1 /* sort_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5014462D1D3F147D0068A2D1 /* PhotoBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		501446311D3F147D0068A2D1 /* PhotoBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBookUITests.m; sourceTree = "<group>"; };
 		501446331D3F147D0068A2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5014463F1D3F1D3D0068A2D1 /* search-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-button.png"; sourceTree = "<group>"; };
+		501446421D3F3A6E0068A2D1 /* sort_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sort_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				501446101D3F147D0068A2D1 /* AppDelegate.m */,
 				501446121D3F147D0068A2D1 /* ViewController.h */,
 				501446131D3F147D0068A2D1 /* ViewController.m */,
+				5014463F1D3F1D3D0068A2D1 /* search-button.png */,
+				501446421D3F3A6E0068A2D1 /* sort_button.png */,
 				501446151D3F147D0068A2D1 /* Main.storyboard */,
 				501446181D3F147D0068A2D1 /* Assets.xcassets */,
 				5014461A1D3F147D0068A2D1 /* LaunchScreen.storyboard */,
@@ -246,9 +252,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501446431D3F3A6E0068A2D1 /* sort_button.png in Resources */,
 				5014461C1D3F147D0068A2D1 /* LaunchScreen.storyboard in Resources */,
 				501446191D3F147D0068A2D1 /* Assets.xcassets in Resources */,
 				501446171D3F147D0068A2D1 /* Main.storyboard in Resources */,
+				501446401D3F1D3D0068A2D1 /* search-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
