@@ -17,6 +17,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+
+    ViewController *mainViewController = [[ViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+   
+    [self.window  setRootViewController:navController];
+    navController.delegate = self;
+    [self.window addSubview:navController.view];
+   
+    //do something like background color, title, etc you self
+    
     return YES;
 }
 
