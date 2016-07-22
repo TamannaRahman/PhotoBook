@@ -26,9 +26,7 @@
     [self.window  setRootViewController:navController];
     navController.delegate = self;
     [self.window addSubview:navController.view];
-   
-    //do something like background color, title, etc you self
-    
+        
     return YES;
 }
 

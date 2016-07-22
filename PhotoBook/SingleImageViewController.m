@@ -1,5 +1,5 @@
 //
-//  SIngleImageViewController.m
+//  SingleImageViewController.m
 //  PhotoBook
 //
 //  Created by CQUGSR on 21/07/2016.
@@ -25,20 +25,18 @@
     CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
     CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
     
-    UIImageView *imageview = [[UIImageView alloc] initWithFrame:CGRectMake((screenWidth - 350)/2, 100, 350, 250)];
+    UIImageView *imageview = [[UIImageView alloc] initWithFrame:CGRectMake((screenWidth - 350)/2, 60, 350, 250)];
     
     largeImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:_singleImageUrlData]]];
     imageview.image = largeImage;
     [self.view addSubview:imageview];
     
-    UILabel *imageMetaDataLabel = [[UILabel alloc] initWithFrame:CGRectMake((screenWidth - 350)/2, 380, 350, 200)];
-    //imageMetaDataLabel.backgroundColor = [UIColor greenColor];
+    UILabel *imageMetaDataLabel = [[UILabel alloc] initWithFrame:CGRectMake((screenWidth - 350)/2, 310, 350, 200)];
     imageMetaDataLabel.textColor = [UIColor whiteColor];
     imageMetaDataLabel.text = _imageMetaData;
     imageMetaDataLabel.lineBreakMode = NSLineBreakByWordWrapping;
     imageMetaDataLabel.numberOfLines = 0;
     imageMetaDataLabel.adjustsFontSizeToFitWidth = YES;
-    NSLog(@"%@",_imageMetaData);
     imageMetaDataLabel.font = [UIFont fontWithName:@"Georgia-Bold" size:20];
     [self.view addSubview:imageMetaDataLabel];
     
@@ -59,10 +57,7 @@
     [openBrowser setBackgroundImage:[UIImage imageNamed:@"browser"] forState:UIControlStateNormal];
     [openBrowser addTarget:self action:@selector(openBrowserButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:openBrowser];
-
 }
-
-
 
 -(void)saveButtonClicked:(UIButton*)sender
 {
@@ -78,7 +73,6 @@
 {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:_singleImageUrlData]];
 }
-
 
 - (void)image:(UIImage *)image didFinishSavingWithError: (NSError *) error contextInfo: (void *) contextInfo
 {
@@ -110,7 +104,6 @@
         [mail setSubject:@"Hello there"];
         [mail setMessageBody:@"Hey, Check out this image!" isHTML:NO];
         [mail setToRecipients:@[@""]];
-        
         NSData *myData = UIImagePNGRepresentation(largeImage);
         [mail addAttachmentData:myData mimeType:@"image/jpeg" fileName:@"Image.jpg"];
         
@@ -118,7 +111,20 @@
     }
     else
     {
-        NSLog(@"This device cannot send email");
+        UIAlertController * alert = [UIAlertController
+                                     alertControllerWithTitle:@"Email  Inactive"
+                                     message:@"Please check your device email settings"
+                                     preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction* noButton = [UIAlertAction
+                                   actionWithTitle:@"Ok"
+                                   style:UIAlertActionStyleDefault
+                                   handler:^(UIAlertAction * action) {
+                                   }];
+        
+        [alert addAction:noButton];
+        
+        [self presentViewController:alert animated:YES completion:nil];
     }
 }
 
@@ -142,7 +148,6 @@
             break;
     }
     [self dismissViewControllerAnimated:YES completion:NULL];
-    
 }
 
 - (void)didReceiveMemoryWarning {

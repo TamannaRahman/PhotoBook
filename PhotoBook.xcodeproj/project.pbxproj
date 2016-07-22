@@ -15,12 +15,12 @@
 		5014461C1D3F147D0068A2D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5014461A1D3F147D0068A2D1 /* LaunchScreen.storyboard */; };
 		501446271D3F147D0068A2D1 /* PhotoBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 501446261D3F147D0068A2D1 /* PhotoBookTests.m */; };
 		501446321D3F147D0068A2D1 /* PhotoBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 501446311D3F147D0068A2D1 /* PhotoBookUITests.m */; };
-		501446431D3F3A6E0068A2D1 /* sort_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 501446421D3F3A6E0068A2D1 /* sort_button.png */; };
 		5014469A1D40E0900068A2D1 /* SingleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501446991D40E0900068A2D1 /* SingleImageViewController.m */; };
 		50DBB0291D41250800B35D76 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DBB0271D41250800B35D76 /* email.png */; };
 		50DBB02B1D41256000B35D76 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DBB02A1D41256000B35D76 /* save.png */; };
 		50DBB02D1D4125EE00B35D76 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DBB02C1D4125EE00B35D76 /* MessageUI.framework */; };
 		50DBB02F1D41279F00B35D76 /* browser.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DBB02E1D41279F00B35D76 /* browser.png */; };
+		50DBB0311D41AF4C00B35D76 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DBB0301D41AF4C00B35D76 /* placeholder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +57,13 @@
 		5014462D1D3F147D0068A2D1 /* PhotoBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		501446311D3F147D0068A2D1 /* PhotoBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBookUITests.m; sourceTree = "<group>"; };
 		501446331D3F147D0068A2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		501446421D3F3A6E0068A2D1 /* sort_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sort_button.png; sourceTree = "<group>"; };
 		501446981D40E0900068A2D1 /* SingleImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleImageViewController.h; sourceTree = "<group>"; };
 		501446991D40E0900068A2D1 /* SingleImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleImageViewController.m; sourceTree = "<group>"; };
 		50DBB0271D41250800B35D76 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
 		50DBB02A1D41256000B35D76 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
 		50DBB02C1D4125EE00B35D76 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		50DBB02E1D41279F00B35D76 /* browser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browser.png; sourceTree = "<group>"; };
+		50DBB0301D41AF4C00B35D76 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +122,7 @@
 				501446131D3F147D0068A2D1 /* ViewController.m */,
 				501446981D40E0900068A2D1 /* SingleImageViewController.h */,
 				501446991D40E0900068A2D1 /* SingleImageViewController.m */,
-				501446421D3F3A6E0068A2D1 /* sort_button.png */,
+				50DBB0301D41AF4C00B35D76 /* placeholder.png */,
 				50DBB02A1D41256000B35D76 /* save.png */,
 				50DBB02E1D41279F00B35D76 /* browser.png */,
 				50DBB0271D41250800B35D76 /* email.png */,
@@ -268,10 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				50DBB0291D41250800B35D76 /* email.png in Resources */,
-				501446431D3F3A6E0068A2D1 /* sort_button.png in Resources */,
 				50DBB02F1D41279F00B35D76 /* browser.png in Resources */,
 				50DBB02B1D41256000B35D76 /* save.png in Resources */,
 				5014461C1D3F147D0068A2D1 /* LaunchScreen.storyboard in Resources */,
+				50DBB0311D41AF4C00B35D76 /* placeholder.png in Resources */,
 				501446191D3F147D0068A2D1 /* Assets.xcassets in Resources */,
 				501446171D3F147D0068A2D1 /* Main.storyboard in Resources */,
 			);

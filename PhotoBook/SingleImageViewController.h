@@ -1,5 +1,5 @@
 //
-//  SIngleImageViewController.h
+//  SingleImageViewController.h
 //  PhotoBook
 //
 //  Created by CQUGSR on 21/07/2016.
@@ -21,4 +21,5 @@
 -(void)sendEmailButtonClicked:(UIButton*)sender;
 -(void)showEmail;
 -(void)openBrowserButtonClicked:(UIButton*)sender;
+
 @end

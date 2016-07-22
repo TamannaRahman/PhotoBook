@@ -14,20 +14,20 @@ NSString *const FlickrAPIKey = @"5852175cfa272c197dbddb2dd6a9243e";
 
 @interface ViewController : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource,UISearchDisplayDelegate,UISearchBarDelegate, UINavigationBarDelegate,UINavigationControllerDelegate>
 {
-    NSMutableArray *authorIds;
+    NSMutableArray *authorNames;
     NSMutableArray *dateTaken;
+    NSMutableArray *imageTitles;
 
     NSMutableArray *smallImageUrlArray;
     NSMutableArray *largeImageUrlArray;
     NSMutableArray *smallImageArray;
-
+    NSMutableDictionary *cachedImage;
     NSInteger totalImageNo;
 }
 
 @property (strong, nonatomic) UICollectionView *collectionView;
 @property (nonatomic, retain) UILabel *headerLabel;
 
--(void)searchButtonClicked:(UIButton*)sender;
 -(void)fetchFlickrPublicImages;
 
 @end
